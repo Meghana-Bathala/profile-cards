@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height:100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(14rem,1fr));
+    gap: 5px;
+    margin-top:10px;
+}
+h1{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+img{
+    width: 100%;
+}
+.card{
+    border: 2px solid black;
+    box-shadow: 7px 9px 10px 3px gray;
+    border-radius:12px;
+}
+.content{
+    text-align: center;
+    margin:6px;
+    padding:4px;
+}
+a{
+    text-decoration:none;
+    border:5px;
+}
+button{
+    background-color:blanchedalmond;
+    border-radius: 30px;
+    padding:10px;
+    margin-top:5px;
+}
+.card:hover{
+    background-color: antiquewhite;
+}
+button:hover{
+    background-color: brown;
+    color: aliceblue;
+}
